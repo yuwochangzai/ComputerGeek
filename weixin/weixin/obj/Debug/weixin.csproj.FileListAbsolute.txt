@@ -1,6 +1,0 @@
-C:\Data\Projects\GitHub\ComputerGeek\weixin\weixin\bin\weixin.dll.config
-C:\Data\Projects\GitHub\ComputerGeek\weixin\weixin\bin\weixin.dll
-C:\Data\Projects\GitHub\ComputerGeek\weixin\weixin\bin\weixin.pdb
-C:\Data\Projects\GitHub\ComputerGeek\weixin\weixin\obj\Debug\weixin.dll
-C:\Data\Projects\GitHub\ComputerGeek\weixin\weixin\obj\Debug\weixin.pdb
-C:\Data\Projects\GitHub\ComputerGeek\weixin\weixin\obj\Debug\weixin.csprojResolveAssemblyReference.cache
