@@ -5,12 +5,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        body {
+            background-color: #5a5e63;
+        }
+
+        .center {
+            margin-top:150px;
+            text-align: center;
+        }
+
+        #imgCode {
+            height: 300px;
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    <h1>You are welcome!</h1>
-    </div>
+        <div>
+            <div class="center">
+                <img src="Image/qrcode.jpg" alt="扫一扫加入微信关注" id="imgCode" />
+            </div>
+        </div>
     </form>
 </body>
 </html>

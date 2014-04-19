@@ -59,6 +59,7 @@
     <Content Include="App_Data\UnauthorizedPath.xml" />
     <Content Include="Audio\pppp.mp3" />
     <Content Include="Default.aspx" />
+    <Content Include="Image\qrcode.jpg" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
