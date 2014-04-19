@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUnauthorizedPath>
+  <UnauthorizedPath>
+    <Name>禁止直接下载MP3</Name>
+    <Match><![CDATA[/Audio/.+\.mp3]]></Match>
+    <Except><![CDATA[/Audio/.+\.mp3\?xcode=]]></Except>
+  </UnauthorizedPath>
+</ArrayOfUnauthorizedPath>

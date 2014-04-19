@@ -56,6 +56,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\UnauthorizedPath.xml" />
     <Content Include="Audio\pppp.mp3" />
     <Content Include="Default.aspx" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
@@ -64,6 +65,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\UnauthorizedPath.cs" />
+    <Compile Include="Common\MyEncrypt.cs" />
+    <Compile Include="Common\MyLog.cs" />
+    <Compile Include="Common\MyXML.cs" />
+    <Compile Include="Common\Utils.cs" />
     <Compile Include="Default.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
       <DependentUpon>Default.aspx</DependentUpon>
@@ -71,12 +77,14 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="HttpHandler\MP3Handler.cs" />
+    <Compile Include="HttpModule\AuthorityModule.cs" />
+    <Compile Include="Model\UnauthorizedPath.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="Properties\PublishProfiles\weixinRelease.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
